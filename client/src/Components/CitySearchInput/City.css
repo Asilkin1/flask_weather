@@ -1,0 +1,15 @@
+#citySuggested{
+
+    border-color: bisque;
+    border-style: solid;
+
+}
+
+div{
+    display: grid;;
+}
+
+.citySearch{
+    text-align: center;
+    padding: 20px;
+  }

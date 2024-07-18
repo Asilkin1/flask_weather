@@ -1,0 +1,47 @@
+.weather{
+    display: flex;
+    fleX:1;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+li{
+    
+    display: flex;
+    font-size: 20px;
+}
+
+.row{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.weather-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+}
+
+.weather-item {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.day {
+    color: #ff6347;
+}
+
+.temperature {
+    color: #4682b4;
+}
+
+.wind-speed {
+    color: #2e8b57;
+}
